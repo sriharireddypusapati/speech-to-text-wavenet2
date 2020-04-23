@@ -1,3 +1,7 @@
+FROM ubuntu:trusty
+RUN apt update && apt install -y build-essential
+
+
 FROM sugartensor/sugartensor:1.0.0.2-cpu
 MAINTAINER Namju Kim namju.kim@kakaocorp.com
 
